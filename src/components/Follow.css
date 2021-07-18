@@ -1,0 +1,21 @@
+.follow {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  font-size: 18px;
+}
+.follow span {
+  margin-left: 35px;
+}
+.social {
+  margin-top: 7px;
+  margin-right: 15px;
+}
+
+@media (max-width: 900px) {
+  .follow {
+    padding: 0px 0px 0px 20px;
+    font-size: 30px;
+  }
+}

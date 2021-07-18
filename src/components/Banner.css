@@ -1,0 +1,156 @@
+.outer {
+  position: relative;
+}
+.outer:hover {
+  cursor: pointer;
+}
+.inner {
+  position: absolute;
+  top: 0px;
+}
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 450px; /* change this to whatever you want */
+  width: 100%;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  background-color: #e6e6e6;
+  height: 100%;
+  padding-left: 30px;
+}
+.slider-container1 {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 100%;
+  padding-left: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  width: 40%;
+}
+.content h1 {
+  font-size: 26px;
+  margin-left: 0px;
+}
+.content p {
+  font-size: 18px;
+  margin: 18px 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+.content button {
+  background-color: black;
+  margin-top: 5px 0px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  padding: 8px 18px;
+  outline: none;
+  margin-left: 0px;
+}
+.content button span {
+  margin-right: 5px;
+}
+.content button span:hover {
+  border-bottom: 2px solid white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.images {
+  display: flex;
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .slider-container .content h1 {
+    font-size: 16px;
+  }
+  .slider-container .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .slider-container .content button {
+    font-size: 14px;
+    width: 126px;
+    margin: auto;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .slider-container1 .content h1 {
+    font-size: 16px;
+    width: 100%;
+  }
+  .slider-container1 .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .slider-container1 .content button {
+    font-size: 14px;
+    width: 126px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .slider-container {
+    flex-direction: column-reverse;
+  }
+  .slider-container1 {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 100%;
+    justify-content: center;
+    height: 60vh;
+    padding: 185px 0px;
+  }
+  .content h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+  }
+  .content p {
+    text-align: center;
+    font-size: 25px;
+  }
+  .content button {
+    margin: auto;
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .slider-container {
+    flex-direction: column-reverse;
+  }
+  .slider-container1 {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 100%;
+    justify-content: center;
+    height: 115vh;
+    padding: 265px 0px;
+  }
+  .content h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+  }
+  .content p {
+    text-align: center;
+    font-size: 25px;
+  }
+  .content button {
+    margin: auto;
+    font-size: 20px;
+  }
+}

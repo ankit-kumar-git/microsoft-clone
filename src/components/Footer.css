@@ -1,0 +1,108 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 0px;
+  height: 70vh;
+  flex-wrap: wrap;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 10px 10px;
+}
+.footer-bottom .left {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.footer-bottom .left p {
+  margin-left: 10px;
+}
+.footer-bottom .left p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-bottom .right {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+}
+.footer-bottom .right ul {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .right ul li {
+  padding: 10px 5px;
+  list-style: none;
+  margin-right: 20px;
+}
+.footer-bottom .right ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 550px) and (max-width: 1100px) {
+  .footer-top {
+    height: 100vh;
+    padding: 10px 0px;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 550px) and (max-width: 860px) {
+  .footer-bottom {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .footer-bottom .left {
+    width: 100%;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  .footer-bottom .right {
+    width: 100%;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .footer {
+    height: fit-content;
+  }
+  .footer-top {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-bottom .left {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 28px;
+    margin-top: 20px;
+  }
+  .footer-bottom .right {
+    width: 100%;
+    font-size: 14px;
+    margin-left: 28px;
+    margin-top: 20px;
+  }
+  .footer-bottom .right ul li {
+    margin-right: 10px;
+  }
+}

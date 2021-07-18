@@ -1,0 +1,17 @@
+.section-3 {
+  height: fit-content;
+  width: 100%;
+  margin-top: 70px;
+}
+.section-3 h5 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+@media (max-width: 900px) {
+  .section-3 h5 {
+    font-size: 35px;
+    margin-left: 63px;
+    font-weight: 600;
+  }
+}
