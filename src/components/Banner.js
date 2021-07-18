@@ -13,7 +13,7 @@ function Banner() {
         showStatus={false}
         showIndicators={true}
         showThumbs={false}
-        interval={30000000}
+        interval={5000}
       >
         <div class="slider-container">
           <div class="content">

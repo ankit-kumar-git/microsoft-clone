@@ -103,7 +103,7 @@
   height: 75px;
   list-style: none;
   border-bottom: 1px solid lightgray;
-  width: 100vw;
+  width: 100%;
 }
 .nav-text a {
   cursor: pointer;
