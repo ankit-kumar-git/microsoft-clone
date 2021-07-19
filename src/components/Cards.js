@@ -2,7 +2,7 @@ import "./Cards.css";
 import { AiOutlineRight } from "react-icons/ai";
 function Cards({ img, heading, para, btn, btn2, isHidden }) {
   return (
-    <div class="cards">
+    <div className="cards">
       <div className="card-upper">
         <img src={img} alt="" />
       </div>

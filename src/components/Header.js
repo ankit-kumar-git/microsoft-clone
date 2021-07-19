@@ -17,29 +17,29 @@ function Header() {
   };
 
   return (
-    <div class="container">
-      <div class="left-container">
-        <div class="left">
+    <div className="container">
+      <div className="left-container">
+        <div className="left">
           <div className="navbar">
-            <Link to="#" class="menu-bars">
+            <Link to="#" className="menu-bars">
               <GiHamburgerMenu
-                class="ham"
+                className="ham"
                 color="gray"
                 size="2rem"
                 onClick={showSidebar}
               />
             </Link>
           </div>
-          <nav class={sidebar ? "nav-menu active" : "nav-menu"}>
+          <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showSidebar}>
               <li className="navbar-toggle">
-                <Link to="#" class="menu-bars">
-                  <AiOutlineClose class="ham" color="black" size="2rem" />
+                <Link to="#" className="menu-bars">
+                  <AiOutlineClose className="ham" color="black" size="2rem" />
                 </Link>
               </li>
               {SidebarData.map((item, i) => {
                 return (
-                  <li key={i} class={item.cName}>
+                  <li key={i} className={item.cName}>
                     <Link to={item.path}>
                       <span>{item.title}</span>
                       {item.icon}
@@ -55,7 +55,7 @@ function Header() {
             alt="logo"
           />
         </div>
-        <div class="right">
+        <div className="right">
           <ul>
             <li>Microsoft 365</li>
             <li>Office</li>
@@ -75,9 +75,13 @@ function Header() {
           </button>
         </div>
         <div className="right">
-          <VscSearch class="icons res-icon" size="1.3rem" color="#5c5a5a" />
-          <AiOutlineShoppingCart class="icons" size="1.3rem" color="#5c5a5a" />
-          <BiUserCircle class="icons" size="2.5rem" color="gray" />
+          <VscSearch className="icons res-icon" size="1.3rem" color="#5c5a5a" />
+          <AiOutlineShoppingCart
+            className="icons"
+            size="1.3rem"
+            color="#5c5a5a"
+          />
+          <BiUserCircle className="icons" size="2.5rem" color="gray" />
         </div>
       </div>
     </div>

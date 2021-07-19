@@ -3,7 +3,7 @@ import { IoMdGlobe } from "react-icons/io";
 import FooterContainer from "./FooterContainer";
 function Footer() {
   return (
-    <div class="footer">
+    <div className="footer">
       <div className="footer-top">
         <FooterContainer
           head={"What's new"}

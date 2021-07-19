@@ -2,7 +2,7 @@ import Cards from "./Cards";
 import "./Section2.css";
 function Section2() {
   return (
-    <div class="section-2">
+    <div className="section-2">
       <Cards
         img={
           "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4Hyo9?ver=47a5&q=90&m=6&h=291&w=517&b=%23FFFFFFFF&l=f&o=t&aim=true"

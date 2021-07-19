@@ -2,12 +2,12 @@ import "./Banner2.css";
 import { AiOutlineRight } from "react-icons/ai";
 function Banner2() {
   return (
-    <div class="ban2">
+    <div className="ban2">
       <div className="ban2-content">
         <h2>Microsoft Edge</h2>
         <p>
-          World-class performance with more privacy, more productivity and more
-          value while you browse
+          World-className performance with more privacy, more productivity and
+          more value while you browse
         </p>
         <button>
           <span>Download Now</span>

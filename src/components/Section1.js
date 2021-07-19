@@ -4,9 +4,9 @@ import { RiXboxLine } from "react-icons/ri";
 import { TiVendorMicrosoft } from "react-icons/ti";
 function Section1() {
   return (
-    <div class="section1-container">
+    <div className="section1-container">
       <div className="section1-contain">
-        <SiMicrosoft class="icon" size="2.7rem" />
+        <SiMicrosoft className="icon" size="2.7rem" />
         <p>Choose your Microsoft 365</p>
       </div>
       <div className="section1-contain">
@@ -17,11 +17,11 @@ function Section1() {
         <p>Explore surface devices</p>
       </div>
       <div className="section1-contain">
-        <RiXboxLine class="icon" size="2.7rem" />
+        <RiXboxLine className="icon" size="2.7rem" />
         <p>Buy Xbox games</p>
       </div>
       <div className="section1-contain">
-        <TiVendorMicrosoft class="icon" size="2.7rem" />
+        <TiVendorMicrosoft className="icon" size="2.7rem" />
         <p>Get Windows 10</p>
       </div>
     </div>

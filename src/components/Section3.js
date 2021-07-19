@@ -2,7 +2,7 @@ import Cards from "./Cards";
 import "./Section3.css";
 function Section3() {
   return (
-    <div class="section-3">
+    <div className="section-3">
       <h5>For business</h5>
       <div className="section-2">
         <Cards

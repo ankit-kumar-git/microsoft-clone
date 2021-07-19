@@ -2,7 +2,7 @@ import "./Section4.css";
 import { AiOutlineRight } from "react-icons/ai";
 function Section4() {
   return (
-    <div class="section-4">
+    <div className="section-4">
       <div className="section4-content">
         <h2>Microsoft's response to COVID 19</h2>
         <p>
